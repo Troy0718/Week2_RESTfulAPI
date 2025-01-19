@@ -1,0 +1,44 @@
+
+*{
+  /* outline: 1px solid black; */
+}
+html,
+body {
+  height:auto;
+  text-align: center;
+
+}
+
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 80%;
+}
+
+.primary-image {
+  height: 200px;
+}
+
+
+.images {
+  height: 150px;
+  margin-right: 5px; /* 加點邊距 */
+}
+
+
